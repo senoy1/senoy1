@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة المبيعات</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .product-image {
+            text-align: center;
+        }
+        .product-image img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .features, .testimonials, .additional-info, .price, .cta, .contact, .order-form {
+            margin-top: 20px;
+        }
+        .cta button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .cta button:hover {
+            background-color: #218838;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>اسم المنتج</h1>
+        <p>وصف قصير وجذاب للمنتج، يوضح الفوائد الأساسية وما يميز المنتج عن غيره.</p>
+
+        <div class="product-image">
+            <img src="path/to/your/image.jpg" alt="اسم المنتج">
+        </div>
+
+        <div class="features">
+            <h2>مميزات المنتج</h2>
+            <ul>
+                <li><strong>ميزة 1:</strong> وصف مختصر للميزة الأولى.</li>
+                <li><strong>ميزة 2:</strong> وصف مختصر للميزة الثانية.</li>
+                <li><strong>ميزة 3:</strong> وصف مختصر للميزة الثالثة.</li>
+            </ul>
+        </div>
+
+        <div class="special-offer">
+            <h2>عرض خاص!</h2>
+            <p>تفاصيل عن العرض الخاص أو الخصم المتاح لفترة محدودة.</p>
+        </div>
+
+        <div class="testimonials">
+            <h2>آراء العملاء</h2>
+            <p><strong>اسم العميل 1:</strong> "تعليق إيجابي من العميل."</p>
+            <p><strong>اسم العميل 2:</strong> "تعليق إيجابي آخر."</p>
+            <p><strong>اسم العميل 3:</strong> "تعليق إيجابي آخر."</p>
+        </div>
+
+        <div class="video">
+            <h2>فيديو توضيحي للمنتج</h2>
+            <p><a href="link/to/your/video">مشاهدة الفيديو</a></p>
+        </div>
+
+        <div class="additional-info">
+            <h2>لماذا تختار منتجنا؟</h2>
+            <p>نص يوضح لماذا يجب على العميل اختيار منتجك بدلاً من المنتجات الأخرى المتاحة في السوق.</p>
+        </div>
+
+        <div class="additional-info">
+            <h2>معلومات إضافية</h2>
+            <p><strong>الضمان:</strong> تفاصيل عن الضمان إن وجدت.</p>
+            <p><strong>الشحن:</strong> تفاصيل عن سياسة الشحن والتوصيل.</p>
+            <p><strong>الإرجاع:</strong> تفاصيل عن سياسة الإرجاع والاستبدال.</p>
+        </div>
+
+        <div class="price">
+            <h2>السعر</h2>
+            <p><strong>السعر الأصلي:</strong> $XXX</p>
+            <p><strong>السعر بعد الخصم:</strong> $YYY (توفر الخصم إن وجد)</p>
+        </div>
+
+        <div class="cta">
+            <button>اشترِ الآن</button>
+        </div>
+
+        <div class="order-form">
+            <h2>نموذج الطلب السريع</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">الاسم</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="phone">رقم الهاتف</label>
+                    <input type="text" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان</label>
+                    <input type="text" id="address" name="address">
+                </div>
+                <button type="submit">إرسال الطلب</button>
+            </form>
+        </div>
+
+        <div class="contact">
+            <h2>تواصل معنا</h2>
+            <p><strong>البريد الإلكتروني:</strong> your-email@example.com</p>
+            <p><strong>رقم الهاتف:</strong> 123456789</p>
+            <p><strong>العنوان:</strong> العنوان الفعلي</p>
+            <p><strong>الروابط الاجتماعية:</strong> <a href="link/to/social/profile">حسابات التواصل الاجتماعي</a></p>
+        </div>
+    </div>
+</body>
+</html>
